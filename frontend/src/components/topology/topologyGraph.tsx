@@ -5,7 +5,6 @@ import cytoscape, { Core } from 'cytoscape';
 import { mockHybridNetwork } from '@/shared/data/topology.data';
 import styles from "./topologyGraph.module.css"
 import {runLayoutWithOffset} from "@/features/runLayoutWithOffset";
-const basePath = 'Cisco-Topology';
 export default function TopologyGraph() {
     const containerRef = useRef<HTMLDivElement>(null);
     const cyRef = useRef<Core | null>(null);
@@ -23,7 +22,7 @@ export default function TopologyGraph() {
                     selector: 'node[type="server"]',
                     style: {
                         'shape': 'rectangle',
-                        'background-image': `url(${basePath}/icons/server.svg)`,
+                        'background-image': `url(/icons/server.svg)`,
                         'background-fit': 'cover',
                         'label': 'data(label)',
                         'background-color': '#f8fafc',
@@ -47,7 +46,7 @@ export default function TopologyGraph() {
                     selector: 'node[type="router"]',
                     style: {
                         'shape': 'rectangle',
-                        'background-image': `url(${basePath}/icons/router.svg)`,
+                        'background-image': `url(public/icons/router.svg)`,
                         'background-fit': 'cover',
                         'label': 'data(label)',
                         'background-color': '#f8fafc',
