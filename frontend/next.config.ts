@@ -3,7 +3,7 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
     output: 'export',
     images: { unoptimized: true },
-    // basePath: '/Cisco-Topology',
+    basePath: '/Cisco-Topology',
     // assetPrefix: '/Cisco-Topology/',
     /* config options here */
 };
