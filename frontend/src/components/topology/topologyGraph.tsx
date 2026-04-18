@@ -34,7 +34,7 @@ export default function TopologyGraph() {
                     selector: 'node[type="computer"]',
                     style: {
                         'shape': 'rectangle',
-                        'background-image': `url(${basePath}/icons/computer.svg)`,
+                        'background-image': `url(/icons/computer.svg)`,
                         'background-fit': 'cover',
                         'label': 'data(label)',
                         'background-color': '#f8fafc',
