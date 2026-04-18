@@ -4,7 +4,6 @@ const nextConfig: NextConfig = {
     output: 'export',
     images: { unoptimized: true },
     basePath: '/Cisco-Topology',
-    assetPrefix: '/Cisco-Topology/',
     /* config options here */
 };
 
