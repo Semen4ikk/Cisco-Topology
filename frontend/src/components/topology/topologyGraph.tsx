@@ -22,7 +22,7 @@ export default function TopologyGraph() {
                     selector: 'node[type="server"]',
                     style: {
                         'shape': 'rectangle',
-                        'background-image': `url(/icons/server.svg)`,
+                        'background-image': `url(icons/server.svg)`,
                         'background-fit': 'cover',
                         'label': 'data(label)',
                         'background-color': '#f8fafc',
@@ -46,7 +46,7 @@ export default function TopologyGraph() {
                     selector: 'node[type="router"]',
                     style: {
                         'shape': 'rectangle',
-                        'background-image': `url(public/icons/router.svg)`,
+                        'background-image': `url(icons/router.svg)`,
                         'background-fit': 'cover',
                         'label': 'data(label)',
                         'background-color': '#f8fafc',
