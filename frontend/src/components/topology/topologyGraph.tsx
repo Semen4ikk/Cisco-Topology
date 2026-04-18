@@ -23,7 +23,7 @@ export default function TopologyGraph() {
                     selector: 'node[type="server"]',
                     style: {
                         'shape': 'rectangle',
-                        'background-image': 'url(/icons/server.svg)',
+                        'background-image': 'url(Cisco-Topology/icons/server.svg)',
                         'background-fit': 'cover',
                         'label': 'data(label)',
                         'background-color': '#f8fafc',
@@ -35,7 +35,7 @@ export default function TopologyGraph() {
                     selector: 'node[type="computer"]',
                     style: {
                         'shape': 'rectangle',
-                        'background-image': 'url(/icons/computer.svg)',
+                        'background-image': 'url(Cisco-Topology/icons/computer.svg)',
                         'background-fit': 'cover',
                         'label': 'data(label)',
                         'background-color': '#f8fafc',
@@ -47,7 +47,7 @@ export default function TopologyGraph() {
                     selector: 'node[type="router"]',
                     style: {
                         'shape': 'rectangle',
-                        'background-image': 'url(/icons/router.svg)',
+                        'background-image': 'url(Cisco-Topology/icons/router.svg)',
                         'background-fit': 'cover',
                         'label': 'data(label)',
                         'background-color': '#f8fafc',
