@@ -1,0 +1,144 @@
+
+.popover {
+    position: absolute;
+    z-index: 9999;
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    box-shadow:
+            0 10px 25px -5px rgba(0, 0, 0, 0.1),
+            0 8px 10px -6px rgba(0, 0, 0, 0.1);
+    min-width: 240px;
+    max-width: 320px;
+    font-family: system-ui, -apple-system, sans-serif;
+    pointer-events: auto;
+    padding: 16px;
+    color: #0f172a;
+}
+.closeBtn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    border: none;
+    font-size: 20px;
+    line-height: 1;
+    color: #000000;
+    background-color: #bbdef9;
+    cursor: pointer;
+    padding: 4px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+    width: 24px;
+    height: 24px;
+}
+
+.closeBtn:hover {
+    color: #475569;
+    background: #f1f5f9;
+}
+
+.closeBtn:focus-visible {
+    outline: 2px solid #3b82f6;
+    outline-offset: 2px;
+}
+.content {
+    font-size: 13px;
+    color: #334155;
+    line-height: 1.5;
+    padding-top: 4px;
+}
+.header {
+    padding-bottom: 12px;
+    border-bottom: 1px solid #f1f5f9;
+    margin-bottom: 12px;
+}
+
+.titleRow {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+.icon {
+    font-size: 20px;
+    line-height: 1;
+}
+
+.title {
+    font-size: 15px;
+    font-weight: 600;
+    color: #0f172a;
+    margin: 0;
+    flex: 1;
+}
+.badges {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+}
+
+.badge {
+    font-size: 11px;
+    font-weight: 600;
+    padding: 2px 8px;
+    border-radius: 10px;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.badgeSecondary {
+    font-size: 11px;
+    font-weight: 500;
+    padding: 2px 8px;
+    border-radius: 10px;
+    background: #f1f5f9;
+    color: #475569;
+    text-transform: capitalize;
+}
+.details {
+    margin: 0;
+    padding: 0;
+}
+
+.detailRow {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 4px 12px;
+    padding: 4px 0;
+    align-items: baseline;
+}
+
+.detailKey {
+    font-size: 12px;
+    font-weight: 500;
+    color: #64748b;
+    margin: 0;
+}
+
+.detailValue {
+    font-size: 13px;
+    color: #334155;
+    margin: 0;
+    word-break: break-word;
+}
+.footer {
+    padding-top: 12px;
+    border-top: 1px solid #f1f5f9;
+    margin-top: 8px;
+}
+
+.nodeId {
+    color: #94a3b8;
+    font-family: ui-monospace, SFMono-Regular, monospace;
+}
+
+.nodeId code {
+    background: #f8fafc;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 11px;
+}
